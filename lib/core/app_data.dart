@@ -168,11 +168,11 @@ class AppData {
   static List<ProductCategory> categories = [
     ProductCategory(
       type: ProductType.all,
-      icon: Icons.all_inclusive,
+      icon: FontAwesomeIcons.accessibleIcon.data,
     ),
     ProductCategory(
       type: ProductType.mobile,
-      icon: FontAwesomeIcons.mobileScreenButton,
+      icon: FontAwesomeIcons.mobileScreenButton.data,
     ),
     ProductCategory(
       type: ProductType.watch,
@@ -180,7 +180,7 @@ class AppData {
     ),
     ProductCategory(
       type: ProductType.tablet,
-      icon: FontAwesomeIcons.tablet,
+      icon: FontAwesomeIcons.tablet.data,
     ),
     ProductCategory(
       type: ProductType.headphone,

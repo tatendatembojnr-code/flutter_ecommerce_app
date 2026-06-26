@@ -35,7 +35,7 @@ class _ListItemSelectorState extends State<ListItemSelector> {
         child: IconButton(
           splashRadius: 0.1,
           icon: FaIcon(
-            item.icon,
+            FaIconData(item.icon),
             color: item.isSelected == false
                 ? const Color(0xFFA6A3A0)
                 : Colors.white,
