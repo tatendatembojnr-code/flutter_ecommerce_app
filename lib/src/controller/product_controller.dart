@@ -70,19 +70,19 @@ class ProductController extends GetxController {
     }
   }
 
-  getFavoriteItems() {
+  void getFavoriteItems() {
     filteredProducts.assignAll(
       allProducts.where((item) => item.isFavorite),
     );
   }
 
-  getCartItems() {
+  void getCartItems() {
     cartProducts.assignAll(
       allProducts.where((item) => item.quantity > 0),
     );
   }
 
-  getAllItems() {
+  void getAllItems() {
     filteredProducts.assignAll(allProducts);
   }
 
